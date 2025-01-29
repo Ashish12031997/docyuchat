@@ -23,7 +23,8 @@ class ask(APIView):
                 "SELECT * FROM public.resume ORDER BY vector <-> %s::vector LIMIT 1",
                 [embedding_vector],
             )
-            system_message = "you are friendly chatbot. you will question and answer only about Ashish like skills, work, education and experience, projects. if you are asked other questions which are not related to ashish then respond with I am not design to answer this question."
+            # system_message = "you are friendly chatbot. you will question and answer only about Ashish. if you are asked other questions which are not related to ashish then respond with I am not design to answer this question."
+            system_message = "you are friendly chatbot. you are design to talk about Ashish only. if you are asked other questions which are not related to ashish then respond with I am not design to answer this question."
             results = [result.summary for result in knn_results]
             # print("knn results---", results)
             messages = [

@@ -1,9 +1,8 @@
 import openai
-
-
+import os
 class OpenAI:
     def __init__(self):
-        openai.api_key = "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"
+        openai.api_key = os.getenv('OPEN_AI_API_KEY')
 
     def get_embedding(self, text):
         response = openai.embeddings.create(

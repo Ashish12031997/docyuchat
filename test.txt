@@ -1,0 +1,64 @@
+Ashish Patadiya
+
+
+Professional Summary
+Dynamic and results-driven Lead Software Engineer with over 6 years of experience specializing in backend development using Python and Node.js. Proven track record of leading engineering teams, designing scalable architectures, and implementing robust data ingestion pipelines. Adept at collaborating with cross-functional teams to deliver high-quality software solutions. Proficient in modern cloud technologies and containerization.
+Professional Experience
+Leadership & Project Management: Lead multiple high-impact projects, including those for esteemed clients such as Walmart, Apple, and Major League Baseball. Oversee the entire project lifecycle, ensuring projects meet the highest standards of quality and performance.
+Technical Implementation: Spearheaded the design and deployment of data ingestion micro-services for multiple social media platforms, including Instagram, Facebook, Twitter, YouTube, TikTok, and Pinterest, using advanced frameworks and best practices.
+System Design: Conducted comprehensive system design, including requirement analysis, high-level and detailed design specifications, and the creation of scalable, high-availability architectures with robust security measures, using tools like Figma and Draw.io for clear communication and documentation.
+Microservices Development: Extensive experience in building micro-services using and Python and Nodejs with frameworks such as Flask, Django and Express. Implemented RESTful APIs and GraphQL for efficient service communication.
+Generative AI: Constructed a chatbot employing LLMs such as ChatGPT, Gemini, and Llama to generate text, Image and video, provide summaries of documents, and execute queries against SQL and NoSQL databases.
+Database Management: Engineered a time-series database to store and retrieve data efficiently on a daily basis. Utilized PostgreSQL (Aurora and Cloud SQL), MongoDB, and DynamoDB to ensure optimal data storage and retrieval processes.
+Collaboration: Partnered with the Data Science team to integrate sophisticated AI models into the data ingestion pipeline. Enabled the processing and analysis of 1100 days' worth of videos within a 24-hour timeframe using machine learning and big data technologies.
+Scheduling System: Designed and implemented a robust scheduling system for automating post-publication across social media platforms using Python, Airflow, Django, Celery, and Celery Beat. Ensured timely and accurate content delivery.
+Problem-Solving: Innovatively designed and implemented a robust retry mechanism for failed data collection processes, enhancing the reliability and accuracy of the data ingestion pipeline. Conducted root cause analysis and utilized advanced debugging techniques to identify and resolve issues efficiently. Leveraged tools such as Prometheus and Grafana for monitoring and alerting, ensuring proactive issue resolution and minimal downtime.
+Multitasking: Efficiently managed multiple products and projects simultaneously in a high- paced environment. Showcased excellent organizational and multitasking abilities, consistently meeting tight deadlines and project milestones.
+Communication: Facilitated clear and effective communication across all Product, Engineering, DevOps, and AI/Data Science teams, ensuring alignment and collaboration.
+SKILLS
+Languages: Python, NodeJS, TypeScript.
+Databases: PostgreSQL, SQL Server, MongoDB, QdrantDB, Pinecone, SQL Pool.
+Frontend: Reactjs
+LLMS: Text-Text, Text-Image, Text-Video using OpenAI, Gemini and Runway.
+Containers: Docker and Kubernetes.
+AWS services: S3, RDS, Dynamo, Lambda, Step Function, Parameter Store, Elastic Beanstalk and EC2.
+Azure service: Function App, Kubernetes services, Synapse, Storage Accounts, Key Vault.
+ETL tools: Airflow, DBT, PySpark, Pydantic
+Able to design, develop, deploy and support RESTful API and gRPC.
+Logging: Prometheus, Grafana and ELK Stack (Elasticsearch, Logstash, Kibana).
+Cloud Platforms: AWS, Azure and GCP.
+Messaging: Apache Kafka, RabbitMQ and Redis Streams.
+WORK EXPERIENCE
+Loblaw Digital, Toronto - Senior Backend Engineer
+Sept 2024 to Present*
+Key Projects - Garfielld
+Leading the redesign of Garfielld, initially a proof of concept, transformed it into a fully scalable application.
+Developed and enhanced the insights feature, leveraging Large Language Models (LLMs) to generate SQL queries, fetch data from BigQuery, and present insightful information to users.
+Implemented significant improvements to SQL generation, reducing response time by 30% through the integration of LangChain and LangGraph functionalities, and enhancing SQL generation capabilities by 40%.
+Led efforts in enhancing web search functionality, integrating LLM-powered queries to retrieve and summarize internal documentation.
+Collaborated closely with stakeholders to define requirements for Garfielld’s database fetching, web search capabilities, and document retrieval features, ensuring alignment with business objectives.
+Viral Nation, Toronto - Lead Software Engineer (Promoted after 1 year as Software Engineer)
+Aug-2021 to Sept-2024
+Key Projects – Viral Nation Secure, CreatorOS, Social Listening, Influsoft.
+Lead a team of software engineers, ensuring timely and quality completion of goals and tasks.
+Design and develop scalable, low-latency, high-availability web and mobile applications.
+Write reusable, testable, robust, and efficient code with clear security and data protection measures.
+Develop and implement cloud-native solutions utilizing AWS and Azure services.
+Collaborate with Product Engineering, DevOps, and AI/Data Science teams to deliver real- time data processing solutions.
+SerpentCS, India- Associate Software Developer
+June 2018 - July 2019
+Design and develop integrated Odoo applications.
+Develop client solution as part of a cross-functional team consisting of business advisors, consultants, other developers, and customer.
+Translating business processes into software solutions.
+Provide the support to maintain these specific solutions.
+EDUCATION
+Centennial College, Scarborough- Advance Diploma in Software Engineering Technology
+September 2019 - April 2021
+Parul Institute of Engineering and Technology, India- Bachelors in Computer Science
+August 2014 - May 2018
+
+
+CERTIFICATION
+Google Data Analyst
+Apache Airflow
+Generative AI Professional
