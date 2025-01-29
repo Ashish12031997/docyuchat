@@ -13,7 +13,7 @@ class OpenAI:
         return embedding
 
     async def get_completion_from_messages(
-        self, messages, model="gpt-3.5-turbo", temperature=0, max_tokens=1000
+        self, messages, model="gpt-3.5-turbo", temperature=0.5, max_tokens=1000
     ):
         response = openai.chat.completions.create(
             model=model,
