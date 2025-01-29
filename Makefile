@@ -52,4 +52,7 @@ createsuperuser:
 startproject:
 	docker-compose run web django-admin startproject $(PROJECT_NAME) .
 
+delete-pyc:
+	find . -name "*.pyc" -delete
+
 .PHONY: help build up down migrate makemigrations shell test psql logs clean createsuperuser startproject
