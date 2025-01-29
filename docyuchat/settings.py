@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-ma6g!2fxj95e4ha$+ffmwt7qe1#yel79u_fqss8e=95a66lqi1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
+    "pgvector",
     "embeddings.apps.EmbeddingsConfig",
 ]
 
@@ -78,14 +79,11 @@ WSGI_APPLICATION = "docyuchat.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "tsdb",
-        "USER": "tsdbadmin",
-        "PASSWORD": "i30e7m1xmabjwypq",
-        "HOST": "vwq6x1sbyu.pxlyjpwdv5.tsdb.cloud.timescale.com",
-        "PORT": "37813",
-        "OPTIONS": {
-            "sslmode": "require",
-        },
+        'NAME': os.environ.get('DB_NAME'),
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        'HOST': os.environ.get('DB_HOST'),
+        'PORT': os.environ.get('DB_PORT'),
     }
 }
 
