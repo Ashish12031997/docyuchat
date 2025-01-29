@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from embeddings.serializers.question import QuestionSerializer
 from embeddings.controllers.openai import OpenAI
 import numpy as np
-
+from django.http import StreamingHttpResponse, JsonResponse
 from embeddings.models import Resume
 
 
@@ -36,8 +36,8 @@ class ask(APIView):
                 },
             ]
             # print(messages)
-            res = openai.get_completion_from_messages(messages)
-            print("res", res)
-            return Response({"message": res}, status=status.HTTP_200_OK)
+            # res = openai.get_completion_from_messages(messages)
+            # print("res", res)
+            return StreamingHttpResponse(openai.get_completion_from_messages(messages), content_type="text/plain")
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
